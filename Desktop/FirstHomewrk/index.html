@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Create An Account</h1>
+            <p>Create an account to enjoy all the services without any ads for free!</p>
+            
+            <form>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                
+                <div class="name-fields">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Lastname" required>
+                </div>
+
+                <div class="enter">Enter your phone number</div>
+                <div class="phone-fields">
+                   <select name="country" id="country">
+                    <option value="usa">USA+1</option>
+                    <option value="kanada">Canada</option>
+                    <option value="germany">Germany+49</option>
+                   </select>
+                    <input type="text" placeholder="1234567890" required>
+                </div>
+                
+                <p>Please, select the account type</p>
+                <div class="account-type">
+                    <label><input type="radio" name="account" value="free" required> Free</label>
+                    <label><input type="radio" name="account" value="premium"> Premium</label>
+                    <label><input type="radio" name="account" value="luxury"> Luxury</label>
+                </div>
+                
+                <button type="submit">Create Account</button>
+            </form>
+            
+            <footer class="signin">Already Have An Account? <a href="#">Sign In</a></footer>
+        </div>
+        </div>
+</body>
+</html>

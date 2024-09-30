@@ -1,0 +1,104 @@
+/* General style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: greenyellow;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://santabarbaraca.com/wp-content/uploads/2015/12/santa-barbara-courhouse-update.jpg);
+}
+
+.form-box {
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(94, 19, 19, 0.224);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: 20px;
+}
+
+p {
+    margin: 0 0 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-fields input {
+    width: calc(50% - 5px);
+}
+
+.phone-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-fields input {
+    width: calc(30% - 5px);
+}
+
+.account-type {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6FBFA5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5DA692;
+}
+
+.signin {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signin a {
+    text-decoration: none;
+    color: #6FBFA5;
+}
